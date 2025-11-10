@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Configuration
 ORIGINAL_API_BASE = "https://karobetahack.vercel.app/fetch"
-VALID_TOKEN = "4DM1N3O55"  # Hardcoded auth token
+VALID_TOKEN = "4DM1N3055"  # Hardcoded auth token
 
 def is_browser_request():
     """Check if request is from browser - BLOCK browsers"""
